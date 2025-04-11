@@ -23,6 +23,7 @@ public class EjercicioDos {
             if (nombre.equals(nombreUs) && intentoContraseña.equals(contraseña)) {
                 log.info("ACCESO CONCEDIDO ");
                 accesoConcedido = true;
+                
             } else {
                 intentos++;
                 log.warning("Usuario o contraseña incorrectos. Intento " + intentos + " de 3.");
